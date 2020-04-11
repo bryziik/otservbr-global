@@ -93,6 +93,12 @@
 	<event type="death" name="disgustingOoze" script="quests/ferumbras ascendant/disgusting ooze.lua"/>
 	<event type="death" name="deathDragon" script="quests/ferumbras ascendant/death dragon.lua"/>
 
+	<!-- Urmahllulu The Immaculate Changes -->
+	<event type="death" name="SummonWild" event="script" script="quests/Issavi/immaculate.lua"/>
+	<event type="death" name="SummonTamed" event="script" script="quests/Issavi/tamed.lua"/>
+	<event type="death" name="SummonWisdom" event="script" script="quests/Issavi/wisdom.lua"/>
+	<event type="death" name="SummonWeakened" event="script" script="quests/Issavi/weakened.lua"/>
+	
 	<!-- Reward Chest 19/01 -->
 	<event type="login" name="LoginBossPlayer" script="rewardChest/boss.lua" />
  	<event type="death" name="BossDeath" script="rewardChest/boss.lua" />
